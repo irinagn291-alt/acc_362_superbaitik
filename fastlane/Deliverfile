@@ -34,7 +34,7 @@ overwrite_screenshots true
 screenshot_processing_timeout 600
 skip_app_version_update true
 
-submit_for_review true
+submit_for_review false
 automatic_release false
 force true
 run_precheck_before_submit false
