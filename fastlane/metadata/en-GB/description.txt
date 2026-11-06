@@ -1,0 +1,7 @@
+SuperBaitik is an English-language diary for recording periods and daily observations.
+
+Log a period’s first day, add its last day when known, and keep an optional note. Use daily check-ins to record energy, cramps and personal notes for today or a past day.
+
+Explore your entries in a monthly calendar or journal. Insights show recorded cycle and period lengths, with recaps that bring a cycle’s dates and check-ins together. After at least two period starts, the app can estimate your next start from recent recorded intervals.
+
+Estimates are for personal planning. They cannot determine ovulation or safe days for contraception. Your entries are stored on your device.

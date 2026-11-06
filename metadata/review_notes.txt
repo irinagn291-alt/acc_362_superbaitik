@@ -1,0 +1,17 @@
+SuperBaitik is an English-language period and daily observation diary for iPhone and iPad on iOS 17 or later. There is no watchOS app, onboarding, account or populated demo mode. A new journal is empty and all main features are immediately available. Example records can be created through the interface; the debug UI-test environment can select an isolated journal location but does not seed data.
+
+The light interface has four tabs: Today, Calendar, Journal and Insights. Today shows the cycle day counted from the latest period start, whether that period is ongoing, period logging or editing, a daily check-in shortcut and, when available, a next-period estimate linked to Calendar. Its header opens the Journal guide and privacy policy.
+
+Calendar is a Monday-first monthly grid with previous and next month controls and a Today shortcut. It marks recorded and open period days, the estimated start and saved check-ins. Selecting a current or past day offers relevant period and check-in actions; future dates cannot be logged. A selected period day shows its number and any period note.
+
+Journal lists periods newest first, grouped by month, with dates, ongoing status and notes. Select a period to edit it; a separate card opens daily check-ins and their history. The period editor accepts a first day, optional last day and optional note. Periods can remain open. Existing entries can be edited or deleted after confirmation. Future dates, reversed dates and overlapping periods are rejected.
+
+A daily check-in for today or a past day can contain any combination of energy (Low, Usual or High), cramps (None, Mild, Moderate or Strong) and a personal note. There is one check-in per day. The sheet displays history and supports selecting, editing and deleting entries, and asks before discarding unsaved changes.
+
+Insights switches between cycle length and period length, showing an average, sample count, shortest and longest values where applicable, and bars for up to six recent records. Cycle length is measured between consecutive starts; finished period length includes both start and end days. Selecting a cycle interval opens a recap with its dates, lengths and check-ins from its start up to, but excluding, the next start.
+
+After at least two period starts, the estimate averages up to six recent start-to-start intervals, rounds to a whole day and adds that number to the latest start. Today and Calendar distinguish a current or future estimate from one that has passed; the estimate is not automatically advanced. The guide explains periods, check-ins, recaps and the calculation, and links to the privacy policy. It states that estimates are for personal planning and cannot determine ovulation or safe days for contraception.
+
+Periods and check-ins are stored in separate JSON files in Application Support. Writes are atomic with complete file protection, and the directory is excluded from backups. Entered civil dates are preserved across time-zone changes. Read and save failures appear in the interface; normal saves do not overwrite unreadable files.
+
+The source contains no account, purchase, advertising, analytics, network, HealthKit, notification or other external service integration. The project declares no special device permission prompts. This information is based on a read-only source and configuration review; no build or device session was run.

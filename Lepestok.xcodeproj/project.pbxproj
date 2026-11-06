@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12ADBFDC1C5F8A9FA9AD09DC /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7CFA91B6A3EC5A6555E5A /* CalendarScreen.swift */; };
+		321B34DF962DF7DDA4B9B150 /* CheckInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EF993D35563F642CD9FEB6 /* CheckInScreen.swift */; };
+		3391187037D6148F37FCD71E /* DailyJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D85265E4BFD7FEFF213BE5 /* DailyJournal.swift */; };
+		35F1901DA7AA34ADA854E247 /* DiaryJourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131380D3CD3D516B90443D97 /* DiaryJourneyTests.swift */; };
+		5CCCA044C3FF14185AC3DB63 /* CycleRecapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D283A1F87B72FFEF1D909 /* CycleRecapTests.swift */; };
+		86FB11502C8E5536FEADC66E /* LepestokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8778C83FD7B1598FA21DD /* LepestokApp.swift */; };
+		924D99C4304BE9124C766822 /* CycleStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418DBCF704DED301DB78759 /* CycleStoreTests.swift */; };
+		92FF1DD999FCF7DD4B870138 /* JournalScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826778637A87782EA1930F3C /* JournalScreens.swift */; };
+		94290E0B02C49F6D2DD11E58 /* DailyJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA87C5615E743C12520ABE /* DailyJournalTests.swift */; };
+		96EA81838CC1F50F6273E5FD /* PetalGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDF08023214160AB36B7EE /* PetalGuide.swift */; };
+		CC34622CD4C7DAF39C75CFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E178B7EE4B4FFA4525DA20 /* Assets.xcassets */; };
+		D073C9951C0A24E19EBCC635 /* CycleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731669BD23F5DAC2914B5CED /* CycleStore.swift */; };
+		E38CA105199FD12595CBE429 /* InsightsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95196CC3A9FC2AB157B168FE /* InsightsScreen.swift */; };
+		F90BB01243A270E10DF8583C /* PrivacyPolicy.txt in Resources */ = {isa = PBXBuildFile; fileRef = F00351DA241F4EB7F8AADC76 /* PrivacyPolicy.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5502495EBE040C2A187758B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCCDFCA1633C7A95750E1E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD05A23191D7C3EB61051200;
+			remoteInfo = Lepestok;
+		};
+		5F09E5D208F3B71DCCF4E6B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCCDFCA1633C7A95750E1E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD05A23191D7C3EB61051200;
+			remoteInfo = Lepestok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC8778C83FD7B1598FA21DD /* LepestokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LepestokApp.swift; sourceTree = "<group>"; };
+		131380D3CD3D516B90443D97 /* DiaryJourneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryJourneyTests.swift; sourceTree = "<group>"; };
+		29E178B7EE4B4FFA4525DA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AD7CFA91B6A3EC5A6555E5A /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
+		466A6E3AC37785DF34CA162C /* LepestokTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LepestokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		538A539675728A436C58C055 /* Lepestok.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Lepestok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		731669BD23F5DAC2914B5CED /* CycleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleStore.swift; sourceTree = "<group>"; };
+		76D85265E4BFD7FEFF213BE5 /* DailyJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyJournal.swift; sourceTree = "<group>"; };
+		826778637A87782EA1930F3C /* JournalScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalScreens.swift; sourceTree = "<group>"; };
+		85EF993D35563F642CD9FEB6 /* CheckInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInScreen.swift; sourceTree = "<group>"; };
+		95196CC3A9FC2AB157B168FE /* InsightsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsScreen.swift; sourceTree = "<group>"; };
+		A5DDF08023214160AB36B7EE /* PetalGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalGuide.swift; sourceTree = "<group>"; };
+		B24D283A1F87B72FFEF1D909 /* CycleRecapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleRecapTests.swift; sourceTree = "<group>"; };
+		B418DBCF704DED301DB78759 /* CycleStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleStoreTests.swift; sourceTree = "<group>"; };
+		BFCA87C5615E743C12520ABE /* DailyJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyJournalTests.swift; sourceTree = "<group>"; };
+		ECD835B193D9148C21A5DFE7 /* LepestokUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LepestokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00351DA241F4EB7F8AADC76 /* PrivacyPolicy.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PrivacyPolicy.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A2D5FE0E7744D1BE5ADB28D /* LepestokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				131380D3CD3D516B90443D97 /* DiaryJourneyTests.swift */,
+			);
+			path = LepestokUITests;
+			sourceTree = "<group>";
+		};
+		5BA2D386F4ED1D257B031DBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538A539675728A436C58C055 /* Lepestok.app */,
+				466A6E3AC37785DF34CA162C /* LepestokTests.xctest */,
+				ECD835B193D9148C21A5DFE7 /* LepestokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		856D8A81EB8F0E09055DDA89 = {
+			isa = PBXGroup;
+			children = (
+				A7F28B4A8BD7A0C706A21728 /* Lepestok */,
+				BF98E4BE60A0F506099521D5 /* LepestokTests */,
+				0A2D5FE0E7744D1BE5ADB28D /* LepestokUITests */,
+				5BA2D386F4ED1D257B031DBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F28B4A8BD7A0C706A21728 /* Lepestok */ = {
+			isa = PBXGroup;
+			children = (
+				29E178B7EE4B4FFA4525DA20 /* Assets.xcassets */,
+				2AD7CFA91B6A3EC5A6555E5A /* CalendarScreen.swift */,
+				85EF993D35563F642CD9FEB6 /* CheckInScreen.swift */,
+				731669BD23F5DAC2914B5CED /* CycleStore.swift */,
+				76D85265E4BFD7FEFF213BE5 /* DailyJournal.swift */,
+				95196CC3A9FC2AB157B168FE /* InsightsScreen.swift */,
+				826778637A87782EA1930F3C /* JournalScreens.swift */,
+				0CC8778C83FD7B1598FA21DD /* LepestokApp.swift */,
+				A5DDF08023214160AB36B7EE /* PetalGuide.swift */,
+				F00351DA241F4EB7F8AADC76 /* PrivacyPolicy.txt */,
+			);
+			path = Lepestok;
+			sourceTree = "<group>";
+		};
+		BF98E4BE60A0F506099521D5 /* LepestokTests */ = {
+			isa = PBXGroup;
+			children = (
+				B24D283A1F87B72FFEF1D909 /* CycleRecapTests.swift */,
+				B418DBCF704DED301DB78759 /* CycleStoreTests.swift */,
+				BFCA87C5615E743C12520ABE /* DailyJournalTests.swift */,
+			);
+			path = LepestokTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8307DEC9CA9B661C50FF6068 /* LepestokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F35A62301AB32939AEE1005 /* Build configuration list for PBXNativeTarget "LepestokUITests" */;
+			buildPhases = (
+				DFB846F2A2F45B57FA197CB5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80B2587B2C9B28F537C7BD31 /* PBXTargetDependency */,
+			);
+			name = LepestokUITests;
+			packageProductDependencies = (
+			);
+			productName = LepestokUITests;
+			productReference = ECD835B193D9148C21A5DFE7 /* LepestokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CACA7C7F08534C80B2774004 /* LepestokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13926CD52E7169E2BE3FBE76 /* Build configuration list for PBXNativeTarget "LepestokTests" */;
+			buildPhases = (
+				D631074DCD876CC94FD65C25 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DB9137AC12AB28E617909D /* PBXTargetDependency */,
+			);
+			name = LepestokTests;
+			packageProductDependencies = (
+			);
+			productName = LepestokTests;
+			productReference = 466A6E3AC37785DF34CA162C /* LepestokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD05A23191D7C3EB61051200 /* Lepestok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903096F763DB057F40EBF34F /* Build configuration list for PBXNativeTarget "Lepestok" */;
+			buildPhases = (
+				6C5596409705802803D2718A /* Sources */,
+				821FCA70B5E06718617F1273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lepestok;
+			packageProductDependencies = (
+			);
+			productName = Lepestok;
+			productReference = 538A539675728A436C58C055 /* Lepestok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFCCDFCA1633C7A95750E1E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8307DEC9CA9B661C50FF6068 = {
+						TestTargetID = CD05A23191D7C3EB61051200;
+					};
+				};
+			};
+			buildConfigurationList = F8ED6B53EA027C0270DBCB01 /* Build configuration list for PBXProject "Lepestok" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 856D8A81EB8F0E09055DDA89;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5BA2D386F4ED1D257B031DBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD05A23191D7C3EB61051200 /* Lepestok */,
+				CACA7C7F08534C80B2774004 /* LepestokTests */,
+				8307DEC9CA9B661C50FF6068 /* LepestokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821FCA70B5E06718617F1273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34622CD4C7DAF39C75CFDD /* Assets.xcassets in Resources */,
+				F90BB01243A270E10DF8583C /* PrivacyPolicy.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C5596409705802803D2718A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12ADBFDC1C5F8A9FA9AD09DC /* CalendarScreen.swift in Sources */,
+				321B34DF962DF7DDA4B9B150 /* CheckInScreen.swift in Sources */,
+				D073C9951C0A24E19EBCC635 /* CycleStore.swift in Sources */,
+				3391187037D6148F37FCD71E /* DailyJournal.swift in Sources */,
+				E38CA105199FD12595CBE429 /* InsightsScreen.swift in Sources */,
+				92FF1DD999FCF7DD4B870138 /* JournalScreens.swift in Sources */,
+				86FB11502C8E5536FEADC66E /* LepestokApp.swift in Sources */,
+				96EA81838CC1F50F6273E5FD /* PetalGuide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D631074DCD876CC94FD65C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCCA044C3FF14185AC3DB63 /* CycleRecapTests.swift in Sources */,
+				924D99C4304BE9124C766822 /* CycleStoreTests.swift in Sources */,
+				94290E0B02C49F6D2DD11E58 /* DailyJournalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB846F2A2F45B57FA197CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F1901DA7AA34ADA854E247 /* DiaryJourneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80B2587B2C9B28F537C7BD31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD05A23191D7C3EB61051200 /* Lepestok */;
+			targetProxy = 5502495EBE040C2A187758B5 /* PBXContainerItemProxy */;
+		};
+		D9DB9137AC12AB28E617909D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD05A23191D7C3EB61051200 /* Lepestok */;
+			targetProxy = 5F09E5D208F3B71DCCF4E6B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0565E2EC2F4015C437CBF7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.lepestok.cyclediary.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lepestok.app/Lepestok";
+			};
+			name = Debug;
+		};
+		399904E61C33DB47462D28C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.lepestok.cyclediary.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lepestok.app/Lepestok";
+			};
+			name = Release;
+		};
+		3A0D27BB25A3472F8A1290DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		454F92739EC757A5DB98E91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59D8AF20D31E182A347FB54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuperBaitik";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.lepestok.cyclediary;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73168219872D7F64D1522CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.lepestok.cyclediary.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lepestok;
+			};
+			name = Release;
+		};
+		76F5CD58ADB3E1B9F6DCD650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuperBaitik";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.lepestok.cyclediary;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87537B2AD0D7AF9290B2479D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.lepestok.cyclediary.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lepestok;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13926CD52E7169E2BE3FBE76 /* Build configuration list for PBXNativeTarget "LepestokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0565E2EC2F4015C437CBF7A7 /* Debug */,
+				399904E61C33DB47462D28C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3F35A62301AB32939AEE1005 /* Build configuration list for PBXNativeTarget "LepestokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87537B2AD0D7AF9290B2479D /* Debug */,
+				73168219872D7F64D1522CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		903096F763DB057F40EBF34F /* Build configuration list for PBXNativeTarget "Lepestok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F5CD58ADB3E1B9F6DCD650 /* Debug */,
+				59D8AF20D31E182A347FB54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F8ED6B53EA027C0270DBCB01 /* Build configuration list for PBXProject "Lepestok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0D27BB25A3472F8A1290DA /* Debug */,
+				454F92739EC757A5DB98E91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFCCDFCA1633C7A95750E1E3 /* Project object */;
+}

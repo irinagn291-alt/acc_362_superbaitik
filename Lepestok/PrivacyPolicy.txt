@@ -1,0 +1,12 @@
+SuperBaitik Privacy Policy
+
+Effective November 4, 2026
+
+What you enter
+You choose which period dates, energy levels, cramp levels, and notes to enter. SuperBaitik uses these entries on your device to display your calendar and journal, count days, and estimate the next period start.
+
+Where entries go
+SuperBaitik stores your journal in its protected app folder on this device and excludes the journal files from backups. SuperBaitik does not send entries to a developer server or share them with other apps. It has no account, advertising, analytics SDK, or tracking.
+
+How long entries stay
+Your entries stay in SuperBaitik until you delete them. To change or remove a period, open it in Journal. To change or remove a daily check-in, open Daily check-in and select its date. Deleting the app from the device removes its local journal. Offloading the app keeps its documents and data.

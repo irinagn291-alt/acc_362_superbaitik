@@ -1,0 +1,9 @@
+SuperBaitik is an English-language, offline period diary. All features are available on first launch. No account, purchase, special permissions, or network connection is required.
+
+To try the calendar and estimates, open Today and choose Log a period. Enter a first day about five weeks ago, turn on Period has ended, and choose a last day a few days later. Save. Add a second period starting about one week ago. Today now shows an estimated next start. Open Insights to compare the start-to-start interval with recorded period lengths. Tap an interval under Cycle length to open its Cycle recap. Check-ins appear beside their day within that cycle. You can edit or delete a period from Journal.
+
+Open Daily check-in from Today or choose a past date in Calendar. Enter an energy level, cramp level, or note. Save, reopen, and select the day in Check-in history to edit or delete it.
+
+Today > Guide explains the estimate with a worked example. The arithmetic mean of the most recent one to six recorded intervals is rounded to a whole day and added to the latest start. SuperBaitik is intended for personal recordkeeping and planning. It does not predict ovulation, provide contraception guidance, or make diagnoses.
+
+The privacy policy is available from Today and the Guide. Journal entries are processed on this device and excluded from backups.
